@@ -1,4 +1,5 @@
-import '../style.css';
+import style from '../style.css';
+import cardWidget from './cardWidget';
 
 
 function NavBar() {
@@ -9,24 +10,27 @@ function NavBar() {
       <header className="header">
     
 
-      <nav class="navbar navbar-expand-sm navbar-dark bg-dark">
-  <div class="container-fluid">
-    <a class="navbar-brand" href="javascript:void(0)">MyApp</a>
+      <nav className="navbar navbar-expand-sm navbar-dark bg-info">
+  <div className="container-fluid">
+    <a className="navbar-brand" href="javascript:void(0)">MyApp</a>
    
-    <div class="collapse navbar-collapse" id="mynavbar">
-      <ul class="navbar-nav me-auto">
-        <li class="nav-item">
-          <a class="nav-link" href="javascript:void(0)">Inicio</a>
+    <div className="collapse navbar-collapse" id="mynavbar">
+      <ul className="navbar-nav me-auto">
+        <li className="nav-item">
+          <a className="nav-link" href="#">Inicio</a>
         </li>
-        <li class="nav-item">
-          <a class="nav-link" href="javascript:void(0)">Nuestros Productos</a>
+        <li className="nav-item">
+          <a className="nav-link" href="#">Nuestros Productos</a>
         </li>
-        <li class="nav-item">
-          <a class="nav-link" href="javascript:void(0)">Donde encontrarnos</a>
-        </li>
+        <li className="nav-item">
+          <a className="nav-link" href="#">Donde encontrarnos</a>
+        </li>        
       </ul>
       
+      
     </div>
+    
+    <cardWidget/>
   </div>
 </nav>
        
