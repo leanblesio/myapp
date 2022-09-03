@@ -7,7 +7,7 @@ import {MyProductsList} from "./MyProductsList";
 
 
 
-export const MyProducsContainer = () => {
+export const MyProductsContainer = () => {
   const [products, setProducts] = useState([]);
   
   useEffect(() => {
@@ -21,6 +21,7 @@ export const MyProducsContainer = () => {
         }
       }, time);
     });
+
     getProducts(productsJson, 3500)
     .then((res) =>{
         setProducts(res);
@@ -30,6 +31,7 @@ export const MyProducsContainer = () => {
 
   return (
     <div>
+      <h3>prueba</h3>
       <MyProductsList products={products} />
 
     </div>

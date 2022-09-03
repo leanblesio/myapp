@@ -3,15 +3,18 @@ import { useState } from "react";
 
 
 
-export const Product = ({tittle, img, price}) => {
+export const Product = ({title, img, price}) => {
 
 
-return(
-    <article>
-        <h3>{tittle}</h3>
-        <img src={img} alt="" style={{ width: "15rem" }} />
+return( 
+    <div>        
+        <h3 className="card-title">{title}</h3>
+
+        <img src={img} alt="Pasteleria" class="rounded-xl" style={{ width: "20vw", height: "400px" }}/>
         <h3>{price}</h3>
-    </article>
 
+
+    </div>    
+    
 );
 };

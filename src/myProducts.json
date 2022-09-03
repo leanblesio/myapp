@@ -1,7 +1,7 @@
 [
     {
       "id": "1",
-      "title": "Torta Letra, numero o forma gold",
+      "title": "Torta Letra, numero",
       "price": 1200,
       "img": "./img/tortaNumeroLetra.jpg",
       "URLImg": "https://d3ugyf2ht6aenh.cloudfront.net/stores/536/593/products/marcada341-83d3fe07a0a3a9a4f716208570319568-1024-1024.jpg"
@@ -16,8 +16,8 @@
     {
       "id": "3",
       "title": "Cheesecake Frutos Rojos",
-      "price": 1600,
-      "img": "./img/cheeseCakeFrutosRojos.jpg",
+      "price": 1500,
+      "img": "./img/cheesCakeFr.jpg",
       "URLImg": "https://d3ugyf2ht6aenh.cloudfront.net/stores/536/593/products/image000581-76befcd960bebb377115604488566855-1024-1024.jpg"
     }
   ]
