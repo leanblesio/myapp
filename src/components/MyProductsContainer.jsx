@@ -31,7 +31,7 @@ export const MyProductsContainer = () => {
 
   return (
     <div>
-      <h3>prueba</h3>
+      
       <MyProductsList products={products} />
 
     </div>

@@ -7,7 +7,7 @@ const CardWidget = () => {
   return (
     <div>
     <img className='logoCart' src={cartLogo} alt="logoCarrito" />
-    <ItemListContainer greeting={'1'}/>
+    {/* <ItemListContainer greeting={'1'}/> */}
     </div>
   )
 }
