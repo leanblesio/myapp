@@ -2,8 +2,8 @@ import React from 'react'
 import { useEffect, useState } from 'react'
 
 export const ItemCount = ({stock, initial}) => { //falta añadir el onAdd.-
-  const [counter, setCounter] = useState([])
-
+  
+  const [counter, setCounter] = useState(0)
   
 
   
@@ -13,12 +13,18 @@ export const ItemCount = ({stock, initial}) => { //falta añadir el onAdd.-
   }, [counter])
 
   const handleClick = () => {
-    console.log('hiciste click');
-    setCounter( counter + 1 ) // counter++ -> counter = counter + 1
+    
+    setCounter(counter + 1 ) // counter++ -> counter = counter + 1
   }
   return (
-    
-      <button onClick={handleClick} className='btn my-5'>Click {counter}</button>
-
+    <div>
+      <div className='my-5'>
+        <strong>Counter = {counter}</strong>
+       </div> 
+      
+      <button onClick={handleClick} className='btn-primary' >Click</button>
+      
+    </div>
+     
   )
 }
