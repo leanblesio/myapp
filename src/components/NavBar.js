@@ -1,5 +1,5 @@
 import style from '../style.css';
-import cardWidget from './cardWidget';
+import CardWidget from './CardWidget';
 
 
 function NavBar() {
@@ -24,13 +24,14 @@ function NavBar() {
         </li>
         <li className="nav-item">
           <a className="nav-link" href="#">Donde encontrarnos</a>
-        </li>        
+        </li>  
+              
       </ul>
-      
+      <CardWidget/>
       
     </div>
     
-    <cardWidget/>
+   
   </div>
 </nav>
        

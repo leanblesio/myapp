@@ -1,13 +1,15 @@
 import cartLogo from '../img/cartLogo.png';
 import React from 'react';
 import '../style.css';
+import ItemListContainer from './ItemListContainer'
 
-const cardWidget = () => {
+const CardWidget = () => {
   return (
     <div>
-    <img src={cartLogo} alt="logoCarrito" />
+    <img className='logoCart' src={cartLogo} alt="logoCarrito" />
+    <ItemListContainer greeting={'1'}/>
     </div>
   )
 }
 
-export default cardWidget;
+export default CardWidget;

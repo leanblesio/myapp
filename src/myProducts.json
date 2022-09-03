@@ -1,0 +1,24 @@
+[
+    {
+      "id": "1",
+      "title": "Torta Letra, numero o forma gold",
+      "price": 1200,
+      "img": "./img/tortaNumeroLetra.jpg",
+      "URLImg": "https://d3ugyf2ht6aenh.cloudfront.net/stores/536/593/products/marcada341-83d3fe07a0a3a9a4f716208570319568-1024-1024.jpg"
+    },
+    {
+      "id": "2",
+      "title": "Torta Oreo",
+      "price": 800,
+      "img": "./img/tortaOreo.jpg",
+      "URLImg": "https://d3ugyf2ht6aenh.cloudfront.net/stores/536/593/products/marcada4011-34cc7142d4f74dba5815603892806969-1024-1024.jpg"
+    },
+    {
+      "id": "3",
+      "title": "Cheesecake Frutos Rojos",
+      "price": 1600,
+      "img": "./img/cheeseCakeFrutosRojos.jpg",
+      "URLImg": "https://d3ugyf2ht6aenh.cloudfront.net/stores/536/593/products/image000581-76befcd960bebb377115604488566855-1024-1024.jpg"
+    }
+  ]
+  

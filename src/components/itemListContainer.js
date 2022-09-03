@@ -1,9 +1,9 @@
 import React from 'react'
 
-const itemListContainer = ({greeting}) => {
+const ItemListContainer = ({greeting}) => {
   return (
-    <div>{greeting}</div>
+    <div>{'1'}</div>
   )
 }
-//agregado de codigo para push
-export default itemListContainer
+
+export default ItemListContainer
